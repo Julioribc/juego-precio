@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import './App.css';
 
+
+
 function App() {
-  const [color, setColor] = useState('button')
+  // const [color, setColor] = useState(true)
 
   const onClickValor = (e) => {
     let sumatoria = (e.target.innerHTML)
@@ -15,9 +17,11 @@ function App() {
     
 
     if(suma === 100){
-      setColor('button-red')
+      console.log(e)
+      console.log(e.target.classList.add('button-red'))
       }
   }
+ 
 
 
 
@@ -35,7 +39,7 @@ function App() {
         </p>
         <div className='container-button'>
           <button
-           className={color}
+           className='button'
            onClick={onClickValor}>
             70
              + 
@@ -47,7 +51,7 @@ function App() {
           </button>
 
           <button
-           className={color}
+           className='button'
            onClick={onClickValor}>
             10
              +
@@ -57,7 +61,7 @@ function App() {
           </button>
 
           <button 
-          className={color}
+          className='button'
           onClick={onClickValor}>
             10
              +
@@ -67,7 +71,7 @@ function App() {
           </button>
 
           <button 
-          className={color}
+          className='button'
           onClick={onClickValor}>
             95
              +
@@ -75,7 +79,7 @@ function App() {
           </button>
 
           <button 
-          className={color}
+          className='button'
           onClick={onClickValor}>
             50
              +
@@ -85,7 +89,7 @@ function App() {
           </button>
 
           <button
-           className={color}
+           className='button'
            onClick={onClickValor}>
             15
              +
@@ -97,7 +101,7 @@ function App() {
           </button>
 
           <button 
-          className={color}
+          className='button'
           onClick={onClickValor}>
             10
              +
@@ -109,7 +113,7 @@ function App() {
           </button>
 
           <button 
-          className={color}
+          className='button'
           onClick={onClickValor}>
             20
              +
@@ -123,7 +127,7 @@ function App() {
           </button>
 
           <button 
-          className={color}
+          className='button'
           onClick={onClickValor}>
             70
              +

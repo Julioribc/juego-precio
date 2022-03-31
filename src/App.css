@@ -58,14 +58,4 @@ body, html {
   margin: 5px;
 }
 
-.button:hover {
-  background-color: #888f88;
-}
 
-span {
-  background-color: #acb9ac; /* Green */
-  border: solid 1px red;
-  border-radius: 5px;
-  color: rgb(2, 2, 2);
-  margin: 8px;
-}
